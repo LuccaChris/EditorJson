@@ -487,11 +487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\207.cllamaral\\EditorJson\\EditorJson.csproj",
+      "projectUniqueName": "C:\\Users\\207.cllamaral\\OneDrive - RODONAVES TRANSPORTES E ENCOMENDAS LTDA\\Documentos\\EditorJson\\EditorJson.csproj",
       "projectName": "EditorJson",
-      "projectPath": "C:\\Users\\207.cllamaral\\EditorJson\\EditorJson.csproj",
+      "projectPath": "C:\\Users\\207.cllamaral\\OneDrive - RODONAVES TRANSPORTES E ENCOMENDAS LTDA\\Documentos\\EditorJson\\EditorJson.csproj",
       "packagesPath": "C:\\Users\\207.cllamaral\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\207.cllamaral\\EditorJson\\obj\\",
+      "outputPath": "C:\\Users\\207.cllamaral\\OneDrive - RODONAVES TRANSPORTES E ENCOMENDAS LTDA\\Documentos\\EditorJson\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\207.cllamaral\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -5,28 +5,47 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Text.Json;
 
 namespace EditorJson.Controllers
 {
+
+
+    [ApiController]
     [Route("[controller]")]
-    public class JsonController : Controller
+    public class JsonController : ControllerBase
     {
-        private readonly ILogger<JsonController> _logger;
+       public class JsonRequest
+    {
+    public string Json { get; set; } = "";
+    }
 
-        public JsonController(ILogger<JsonController> logger)
+    
+    [HttpPost("validar")]
+        public IActionResult Validar([FromBody] JsonRequest request)
         {
-            _logger = logger;
-        }
+            try
+            {
+            using var doc = JsonDocument.Parse(request.Json);
+            var formatado = JsonSerializer.Serialize(doc.RootElement, new JsonSerializerOptions
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+            {
+            WriteIndented = true
+            });
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View("Error!");
-        }
+            return Ok(new{
+            valido = true,
+            jsonFormatado = formatado
+            });}
+
+            catch (JsonException e){
+            // Retorna o erro de validação
+            return BadRequest(new
+            {
+            valido = false,
+            erro = e.Message
+            });}}
+ 
+    
     }
 }
