@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EditorJson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2c61a7b23ee2258a3c8b43f6cd637a783db7a4f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b9a9eca812ad923b27feeb5b277416ca0ec0c9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EditorJson")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EditorJson")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
