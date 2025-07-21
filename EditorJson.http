@@ -1,4 +1,4 @@
-@EditorJson_HostAddress = http://localhost:5102
+@EditorJson_HostAddress = http://localhost:5002
 
 GET {{EditorJson_HostAddress}}/weatherforecast/
 Accept: application/json
