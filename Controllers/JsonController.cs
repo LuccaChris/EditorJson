@@ -23,14 +23,7 @@ namespace EditorJson.Controllers
     
     [HttpPost("validar")]
         public IActionResult Validar([FromBody] JsonRequest request)
-        { if (string.IsNullOrWhiteSpace(request.Json))
-{
-    return BadRequest(new
-    {
-        valido = false,
-        erro = "JSON vazio ou nulo."
-    });
-}
+        {
             try
             {
             using var doc = JsonDocument.Parse(request.Json);
