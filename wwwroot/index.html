@@ -4,35 +4,21 @@
 <head>
     <meta charset="UTF-8" />
     <title>Editor JSON</title>
+    <link rel="stylesheet" href="/wwwroot/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>Validador de JSON</h1>
-    <textarea id="input" rows="10" cols="50"></textarea><br/>
-    <button onclick="validar()">Validar</button>
-    <pre id="resultado"></pre>
+    <div class="content-center mx-auto p-4">
 
-    <script>
-        async function validar() {
-            const json = document.getElementById("input").value;
-            const res = await fetch("/json/validar", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({ json })
-            });
+        <h1  >Validador de JSON</h1>
+        <div>
+            
+            <textarea id="input" rows="10" cols="50"></textarea><br/>
+            <button onclick="validar()">Validar</button>
+            <pre id="resultado"></pre>
+            
+        </div>
+    </div>
 
-            const data = await res.json();
-            const result = document.getElementById("resultado");
-
-            if (data.valido) {
-                result.textContent = data.jsonFormatado;
-                result.style.color = "green";
-            } else {
-                result.textContent = "Erro: " + data.erro;
-                result.style.color = "red";
-            }
-        }
-    </script>
 </body>
 </html>

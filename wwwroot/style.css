@@ -1,0 +1,18 @@
+body {
+    font-family: monospace, sans-serif;
+    background-color:hsl(0, 0%, 0%);
+    color: hsl(0, 71%, 86%);
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    margin-top: 15px;
+    max-width: 700px;
+    
+    background-color: #613737;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 100px rgba(253, 252, 252, 0.103);
+    animation: shadowTransition 2s infinite alternate;
+};
