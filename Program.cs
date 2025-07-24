@@ -14,8 +14,9 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-app.UseCors("PermitirTudo"); // Aplica o CORS
+app.UseCors("PermitirTudo");
+app.UseStaticFiles();
 app.UseAuthorization();
-app.MapControllers();        // Mapeia os controllers
-
+app.MapControllers(); 
+app.MapFallbackToFile("index.html");
 app.Run();

@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\207.cllamaral\\Documents\\EditorJson\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\207.cllamaral\\Documents\\EditorJson\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\207.cllamaral\\Documents\\EditorJson\\wwwroot\\script.ts",
+      "PackagePath": "staticwebassets\\script.ts"
+    },
+    {
+      "Id": "C:\\Users\\207.cllamaral\\Documents\\EditorJson\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EditorJson.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EditorJson.props",
+      "PackagePath": "build\\EditorJson.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EditorJson.props",
+      "PackagePath": "buildMultiTargeting\\EditorJson.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EditorJson.props",
+      "PackagePath": "buildTransitive\\EditorJson.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

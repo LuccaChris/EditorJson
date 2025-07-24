@@ -65,3 +65,4 @@ C:\Users\207.cllamaral\Documents\EditorJson\obj\Debug\net8.0\refint\EditorJson.d
 C:\Users\207.cllamaral\Documents\EditorJson\obj\Debug\net8.0\EditorJson.pdb
 C:\Users\207.cllamaral\Documents\EditorJson\obj\Debug\net8.0\EditorJson.genruntimeconfig.cache
 C:\Users\207.cllamaral\Documents\EditorJson\obj\Debug\net8.0\ref\EditorJson.dll
+C:\Users\207.cllamaral\Documents\EditorJson\bin\Debug\net8.0\EditorJson.staticwebassets.runtime.json
