@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\207.cllamaral\\Documents\\EditorJson\\wwwroot\\package-lock.json",
+      "PackagePath": "staticwebassets\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\207.cllamaral\\Documents\\EditorJson\\wwwroot\\package.json",
+      "PackagePath": "staticwebassets\\package.json"
+    },
+    {
       "Id": "C:\\Users\\207.cllamaral\\Documents\\EditorJson\\wwwroot\\script.js",
       "PackagePath": "staticwebassets\\script.js"
     },

@@ -13,3 +13,15 @@ body {
     box-shadow: 0 0 16px rgba(255, 255, 255, 0.452);
     animation: shadowTransition 2s infinite alternate;
 };
+.Contentchild{
+    max-width: 600px; /* ou qualquer valor que você queira */
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+#resultado{
+    white-space: pre-wrap; /* Permite que linhas longas quebrem */
+    word-wrap: break-word; /* Quebra palavras muito grandes */
+    max-width: 100%; /* Não ultrapassa o container */
+    overflow-wrap: anywhere; /* Garante quebra em qualquer ponto se necessário */}
