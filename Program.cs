@@ -1,6 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Ativa os controladores e CORS
 builder.Services.AddControllers();
 builder.Services.AddCors(options =>
 {
@@ -17,5 +16,9 @@ var app = builder.Build();
 app.UseCors("PermitirTudo");
 app.UseStaticFiles();
 app.UseAuthorization();
-app.MapControllers(); 
+app.MapControllers();
+
+// 👇 Isso garante que o index.html funcione na raiz
+app.MapFallbackToFile("index.html");
+
 app.Run();

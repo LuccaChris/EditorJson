@@ -53,6 +53,11 @@ namespace EditorJson.Controllers
             erro = e.Message
             });}}
  
-    
+    [HttpGet]
+public IActionResult Index()
+{
+    return Ok("API está rodando!");
+}
     }
+    
 }
